@@ -10,6 +10,8 @@
 
 #pragma comment(lib, "Ws2_32.lib")
 
+// compilation: gcc windows_client.c -o windows_client.exe -lws2_32
+
 #define PORT "3150"
 #define MAXSIZEDATA 1024
 #define IPv4_SERVER_ADDRESS "192.168.100.249"
